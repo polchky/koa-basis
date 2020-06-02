@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@constants": ["./constants"],
+            "@middlewares": ["./middlewares"],
+            "@middlewares/*": ["./middlewares/*"],
+            "@models": ["./models"],
+            "@models/*": ["./models/*"],
+            "@routes": ["./routes"],
+            "@routes/*": ["./routes/*"],
+            "@database": ["./database"],
+            "@utils": ["./utils"],
+            "@logger": ["./logger"]
+        }
+    },
+    "exclude": ["node_modules"]
+}
